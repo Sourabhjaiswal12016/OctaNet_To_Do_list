@@ -1,0 +1,44 @@
+body{
+    background-color:rgb(5, 32, 32);
+    font-family: sans-serif;
+
+}
+.container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color:white;
+   margin-left: 33%;
+   margin-top: 5px;
+}
+input{
+    width: 270px;
+    padding: 8px;
+    border:2px solid rgb(10, 55, 55) ;
+    outline: none;
+}
+button{
+    width: 60px;
+    height: 41px;
+    border: none;
+    outline: none;
+    background-color:blue;
+    color: white;
+    cursor: pointer;
+}
+.text ul{
+    /* relative dene se upar wale ke naccording width le lega */
+    position:relative;
+    color:white;
+    font-size: 19px;
+    text-align: left;
+    background-color: rgb(15, 23, 23);
+    padding: 10px;
+}
+.text ul i{
+    position: absolute;
+    /* position absolute dene se apne parent ke paas chala jayega */
+/*  */
+     right: 10px;
+     cursor: pointer;
+}
